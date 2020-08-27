@@ -12,7 +12,7 @@ at http://www.imx6rex.com/open-rex"
 
 LICENSE = "GPLv2+"
 LIC_FILES_CHKSUM = "file://Licenses/README;md5=0507cd7da8e7ad6d6701926ec9b84c95"
-COMPATIBLE_MACHINE = "(mxs|mx5|mx6|mx6ul|mx7|vf|imx6q-openrex)"
+COMPATIBLE_MACHINE = "(mxs|mx5|mx6|mx6ul|mx7|vf|imx6q-openrex|imx6s-openrex)"
 
 PROVIDES += "u-boot"
 
@@ -23,7 +23,7 @@ SRCBRANCH ??= "jethro"
 SRC_URI = "git://github.com/SWHWprojects/openrex-uboot-v2015.10.git;branch=${SRCBRANCH}"
 
 #SRCREV is the commit number, must be always changed for a new version
-SRCREV = "ecffd8731a7171aab559193aee0ff4c8f5603a29"
+SRCREV = "78023111e4c8d71e342d3d3a178db40477ec1dfe"
 
 S = "${WORKDIR}/git"
 
